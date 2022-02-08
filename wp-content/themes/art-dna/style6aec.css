@@ -1,0 +1,198 @@
+/*
+Theme Name: art-dna
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
+.absolute-footer {
+	background-color: rgb(33, 33, 33);
+    border-top: 1px solid #333;
+}
+.slider-nav-light .flickity-page-dots .dot {
+    border-color: #752a4d;
+}
+.shop-container .product-category .box-image {
+	padding: 35px;
+}
+
+.product-container .product-info .single_variation_wrap {
+	display: none !important;
+}
+.price-wrapper {
+	display: none;
+}
+ul.thongtinsanpham {
+	border: 1px solid #eee;
+	border-top: none;
+}
+.products_detail_specs_item_name {
+    font-size: 14px;
+    color: #333333;
+    float: left;
+    position: relative;
+    width: 30%;
+    padding-left: 45px;
+}
+.products_detail_specs_item_name:before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    display: block;
+    border-radius: 50%;
+    background-color: #af4284;
+    position: absolute;
+    left: 20px;
+    top: 7px;
+}
+.products_detail_specs_item_value {
+    font-size: 14px;
+    color: #111111;
+    float: left;
+    width: 70%;
+    padding-left: 40px;
+}
+ul.thongtinsanpham li {
+    border-top: 1px solid #eee;
+	margin: 0;
+	list-style: none;
+	padding: 10px 0;
+	position: relative;
+}
+ul.thongtinsanpham li:before{
+	border-left: 1px solid #eee;
+	position: absolute;
+	background: #eee;
+	width: 1px;
+	height: 100%;
+	content: '';
+	left: 30%;
+	top: 0;
+}
+.gioithieu img {
+	height: 200px;
+}
+.daily img {
+	height: 200px;
+}
+ul.thongtinsanpham li:after{
+	clear: both;
+	content: '';
+	display: block;
+}
+#menu-danh-muc-san-pham .sub-menu {
+	border-left: none !important;
+}
+.header-nav li {
+	margin-right: 30px;
+}
+.woocommerce-ordering {
+	display: none;
+}
+.product-footer {
+	display: none;
+}
+.product-gallery-slider img {
+    width: 100%;
+    background: #efefef;
+    padding: 60px;
+}
+.catalog .box-image {
+	background: #efefef;
+    padding: 40px;
+}
+.shop-container .product-small img {
+    padding: 35px;
+}
+#footer p {
+	color: #888;
+}
+.footer_top_social a + a {
+    margin-left: 10px;
+}
+.flex-left .nav {
+	display: table-cell;
+}
+.flex-right {
+	width: 30%;
+}
+.shop-page-title.category-page-title {
+	height: 400px;
+}
+.category-news-banner div{
+	height: 432px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.category-news-banner{
+	
+}
+.footer {
+	padding-bottom: 0 !important;
+}
+.footer .col {
+	padding-bottom: 5px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 450px) {
+	.products_detail_specs_item_name {
+	    font-size: 14px;
+	    color: #333333;
+	    float: left;
+	    position: relative;
+	    width: 30%;
+	    padding-left: 20px;
+	}
+	.products_detail_specs_item_name::before {
+		left: 7px;;	
+	}
+	.products_detail_specs_item_value{
+		padding-left: 10px;
+	}
+	#footer p {
+		font-size: 14px;
+	}
+	.lienhe p {
+		font-size: 14px;
+	}
+	#footer span {
+		color: #fff;
+	}
+	.page-id-191 #content td{
+		display:block;
+		border: none;
+		height: auto !important;
+	}
+.page-id-191 #content td:last-child{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 30px;
+}
+.page-id-191 #content th{
+	display:none;
+}
+
+#footer a {
+	color: #888;
+}
+}
+
+
+
+
+
+
+
